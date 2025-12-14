@@ -3,9 +3,9 @@
 <!-- Logo will be added here once uploaded to repo -->
 <!-- ![CodeSplash AI Logo](./assets/logo.svg) -->
 
-# CodeSplash AI
+# CodeSplash
 
-**Build full-stack apps with AI**
+**AI Coding Platfoarm**
 
 [![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/codesplash-ai/codesplash-ai/releases)
 [![macOS](https://img.shields.io/badge/macOS-Apple%20Silicon-999999?logo=apple)](https://github.com/codesplash-ai/codesplash-ai/releases/download/0.0.1/codesplash-ai-darwin-arm64.zip)
