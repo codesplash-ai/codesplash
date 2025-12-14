@@ -285,10 +285,10 @@ See [LICENSE](./LICENSE) for details.
 
 ## =d Author
 
-**Kurtis Pritchard**
+**CodeSplash AI**
 - Website: [codesplash.ai](https://codesplash.ai)
-- Email: [kurtis@codesplash.ai](mailto:kurtis@codesplash.ai)
-- GitHub: [@kpritch24](https://github.com/kpritch24)
+- Email: [support@codesplash.ai](mailto:support@codesplash.ai)
+- GitHub: [@codesplash-ai](https://github.com/codesplash-ai)
 
 ---
 
