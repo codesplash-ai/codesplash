@@ -7,10 +7,10 @@
 
 **AI Coding Platfoarm**
 
-[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/codesplash-ai/codesplash-ai/releases)
-[![macOS](https://img.shields.io/badge/macOS-Apple%20Silicon-999999?logo=apple)](https://github.com/codesplash-ai/codesplash-ai/releases/download/0.0.1/codesplash-ai-darwin-arm64.zip)
-[![Windows](https://img.shields.io/badge/Windows-10%2B-0078D6?logo=windows)](https://github.com/codesplash-ai/codesplash-ai/releases/download/0.0.1/codesplash-ai-setup.exe)
-[![Linux](https://img.shields.io/badge/Linux-Debian%20%7C%20Ubuntu-E95420?logo=linux)](https://github.com/codesplash-ai/codesplash-ai/releases/download/0.0.1/codesplash-ai-linux-x64.deb)
+[![Version](https://img.shields.io/github/v/release/codesplash-ai/codesplash?label=version&color=blue)](https://github.com/codesplash-ai/codesplash/releases)
+[![macOS](https://img.shields.io/badge/macOS-Apple%20Silicon-999999?logo=apple)](https://github.com/codesplash-ai/codesplash/releases/latest/download/codesplash-ai-darwin-arm64.zip)
+[![Windows](https://img.shields.io/badge/Windows-10%2B-0078D6?logo=windows)](https://github.com/codesplash-ai/codesplash/releases/latest/download/codesplash-ai-setup.exe)
+[![Linux](https://img.shields.io/badge/Linux-Debian%20%7C%20Ubuntu-E95420?logo=linux)](https://github.com/codesplash-ai/codesplash/releases/latest/download/codesplash-ai-linux-x64.deb)
 
 **Free forever · No credit card required · Open source friendly**
 
@@ -32,27 +32,41 @@ CodeSplash AI is an AI-powered code generation platform that lets you prompt an 
 
 Download CodeSplash AI for your platform:
 
-### macOS (Intel & Apple Silicon)
+### macOS
+
+**Apple Silicon (M1/M2/M3):**
 ```bash
-# Download and install
-curl -L https://github.com/codesplash-ai/codesplash-ai/releases/download/0.0.1/codesplash-ai-darwin-arm64.zip -o codesplash-ai.zip
-unzip codesplash-ai.zip
-open codesplash-ai.app
+curl -L https://github.com/codesplash-ai/codesplash/releases/latest/download/codesplash-ai-darwin-arm64.zip -o codesplash-ai.zip
+unzip codesplash-ai.zip && open codesplash-ai.app
 ```
-**[Download for macOS](https://github.com/codesplash-ai/codesplash-ai/releases/download/0.0.1/codesplash-ai-darwin-arm64.zip)**
+**[Download for macOS (Apple Silicon)](https://github.com/codesplash-ai/codesplash/releases/latest/download/codesplash-ai-darwin-arm64.zip)**
+
+**Intel:**
+**[Download for macOS (Intel)](https://github.com/codesplash-ai/codesplash/releases/latest/download/codesplash-ai-darwin-x64.zip)**
 
 ### Windows 10+
-**[Download for Windows](https://github.com/codesplash-ai/codesplash-ai/releases/download/0.0.1/codesplash-ai-setup.exe)**
+**[Download for Windows](https://github.com/codesplash-ai/codesplash/releases/latest/download/codesplash-ai-setup.exe)**
 
-### Linux (Debian/Ubuntu)
+### Linux
+
+**Debian/Ubuntu (.deb):**
 ```bash
-# Download and install
-wget https://github.com/codesplash-ai/codesplash-ai/releases/download/0.0.1/codesplash-ai-linux-x64.deb
+wget https://github.com/codesplash-ai/codesplash/releases/latest/download/codesplash-ai-linux-x64.deb
 sudo dpkg -i codesplash-ai-linux-x64.deb
 ```
-**[Download for Linux](https://github.com/codesplash-ai/codesplash-ai/releases/download/0.0.1/codesplash-ai-linux-x64.deb)**
+**[Download .deb](https://github.com/codesplash-ai/codesplash/releases/latest/download/codesplash-ai-linux-x64.deb)**
 
-**[View all releases](https://github.com/codesplash-ai/codesplash-ai/releases)**
+**Fedora/RHEL (.rpm):**
+```bash
+wget https://github.com/codesplash-ai/codesplash/releases/latest/download/codesplash-ai-linux-x64.rpm
+sudo rpm -i codesplash-ai-linux-x64.rpm
+```
+**[Download .rpm](https://github.com/codesplash-ai/codesplash/releases/latest/download/codesplash-ai-linux-x64.rpm)**
+
+**AppImage (Universal):**
+**[Download AppImage](https://github.com/codesplash-ai/codesplash/releases/latest/download/codesplash-ai-linux-x64.AppImage)**
+
+**[View all releases](https://github.com/codesplash-ai/codesplash/releases)**
 
 ---
 
@@ -239,9 +253,9 @@ Yes! Pro and Max plans include real-time collaboration with live cursors, commen
 
 Found a bug or have a feature request? We'd love to hear from you!
 
-- **Report bugs**: [Create an issue](https://github.com/codesplash-ai/codesplash-ai/issues/new?labels=bug)
-- **Request features**: [Create an issue](https://github.com/codesplash-ai/codesplash-ai/issues/new?labels=enhancement)
-- **Ask questions**: [Start a discussion](https://github.com/codesplash-ai/codesplash-ai/discussions)
+- **Report bugs**: [Create an issue](https://github.com/codesplash-ai/codesplash/issues/new?labels=bug)
+- **Request features**: [Create an issue](https://github.com/codesplash-ai/codesplash/issues/new?labels=enhancement)
+- **Ask questions**: [Start a discussion](https://github.com/codesplash-ai/codesplash/discussions)
 
 When reporting bugs, please include:
 - Your operating system and version
@@ -258,7 +272,7 @@ When reporting bugs, please include:
 - **Documentation**: Coming soon
 - **Blog**: Coming soon
 - **Support**: [support@codesplash.ai](mailto:support@codesplash.ai)
-- **GitHub**: [github.com/kpritch24/ai-platform](https://github.com/codesplash-ai/codesplash-ai)
+- **GitHub**: [github.com/codesplash-ai/codesplash](https://github.com/codesplash-ai/codesplash)
 
 ---
 
@@ -294,7 +308,7 @@ See [LICENSE](./LICENSE) for details.
 
 <div align="center">
 
-**[Download CodeSplash AI](https://github.com/codesplash-ai/codesplash-ai/releases)** · **[Visit Website](https://codesplash.ai)** · **[Get Support](mailto:support@codesplash.ai)**
+**[Download CodeSplash AI](https://github.com/codesplash-ai/codesplash/releases)** · **[Visit Website](https://codesplash.ai)** · **[Get Support](mailto:support@codesplash.ai)**
 
 Made by developers, for developers
 
